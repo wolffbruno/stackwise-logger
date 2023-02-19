@@ -3,9 +3,10 @@
 ...
 
 ## Demo
-![Code](https://i.imgur.com/K3REpMX.png)
-
-![Terminal](https://i.imgur.com/fXY10Si.gif)
+<table style="width: 100%;">
+<tr style="width: 100%;"><td>
+![Code](https://i.imgur.com/K3REpMX.png)</td><td>![Terminal](https://i.imgur.com/fXY10Si.gif)</td></tr>
+</table>
 
 ## Authors
 
