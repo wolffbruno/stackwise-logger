@@ -3,10 +3,7 @@
 ...
 
 ## Demo
-<table style="width: 100%;">
-<tr style="width: 100%;"><td>
-![Code](https://i.imgur.com/K3REpMX.png)</td><td>![Terminal](https://i.imgur.com/fXY10Si.gif)</td></tr>
-</table>
+![Demo](https://i.ibb.co/cC6b7BQ/Screen-Recording-2023-02-19-at-17-29-36-Adobe-Express.gif)
 
 ## Authors
 

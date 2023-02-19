@@ -1,5 +1,4 @@
 import axios from "axios";
-import { type } from "os";
 import rdl from "readline";
 
 const START_DEFAULT_MESSAGE = "Initialing";
@@ -301,6 +300,8 @@ class Logger {
 	}
 }
 
+const logger = new Logger();
+
 type LoggerConfig = {
 	silent: boolean;
 };
@@ -324,4 +325,39 @@ type LogStackItem = {
 	opened: boolean;
 };
 
+const sleep = (time: number) =>
+	new Promise((r) =>
+		setTimeout(() => {
+			r(123);
+		}, time),
+	);
+
 export { Logger };
+
+const createTransaction = async () => sleep(1520);
+const checkGateway = async () => sleep(942);
+const sendEmail = async () => sleep(1200);
+
+async function checkTransaction() {
+	logger.start();
+
+	logger.step(1, "Creating transaction");
+	const transaction = await createTransaction();
+	logger.endStep(1);
+
+	logger.step(2, "Checking gateway");
+	const gateway = await checkGateway();
+	logger.log("Gateway working fine");
+	logger.endStep(2);
+
+	logger.step(3, "Sending email");
+	const email = await sendEmail();
+	logger.endStep(3);
+
+	logger.finish();
+}
+
+(async () => {
+	await sleep(4000);
+	await checkTransaction();
+})();
