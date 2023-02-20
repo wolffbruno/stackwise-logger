@@ -3,7 +3,7 @@
 ...
 
 ## Demo
-![Demo](https://i.ibb.co/cC6b7BQ/Screen-Recording-2023-02-19-at-17-29-36-Adobe-Express.gif)
+![Demo](https://im3.ezgif.com/tmp/ezgif-3-716494c6a6.gif)
 
 ## Authors
 
