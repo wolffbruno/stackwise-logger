@@ -3,7 +3,7 @@
 ...
 
 ## Demo
-![Demo](https://im3.ezgif.com/tmp/ezgif-3-716494c6a6.gif)
+![Demo](https://i.imgur.com/1L08G38.gif)
 
 ## Authors
 
