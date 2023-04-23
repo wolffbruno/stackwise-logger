@@ -1,5 +1,7 @@
 # Stackwise Logger
 
+A  step-based logger tool for node environments.
+
 [Github Repository](https://github.com/wolffbruno/stackwise-logger)
 
 ## Demo
